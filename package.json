@@ -2,6 +2,7 @@
   "name": "react-global-events",
   "version": "1.0.0",
   "description": "Allows parent components to broadcast events to any subscribing descendants.",
+  "repository": "https://github.com/ericbiewener/react-global-events"
   "peerDependencies": {
     "react": "^0.14 || ^15.0.0-rc || ^15.0"
   }
