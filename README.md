@@ -16,7 +16,7 @@ const Root = () => (
 )
 ```
 
-Subcomponents may then subscribe to those events in `componentDidMount`. They must then implement callback methods with the naming convention `onGlobal<EventName>`, e.g. `onGlobalMouseDown`
+Subcomponents may then subscribe to those events in `componentDidMount`. They must then implement callback methods with the naming convention `onGlobal<ReactEventName>`. Note that the `<ReactEventName>` follows the camel-casing convetions of event names in React, not standard JS: `onGlobalMouseDown` rather than `onGlobalMousedown`.
 ```js
 // MySubComponent.js
 
