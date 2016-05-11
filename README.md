@@ -3,7 +3,7 @@ Broadcast `SyntheticEvent`s from any React component to any others which are sub
 
 ## Use
 The most common implementation is to have a single root component listen for events.
-```
+```js
 // RootComponent.js
 
 import {listenFor} from 'react-global-events'
@@ -16,7 +16,7 @@ const Root = () => (
 )
 ```
 Subcomponents may then subscribe to those events in `componentDidMount`. They must then implement callback methods with the naming convention `onGlobal<EventName>`, e.g. `onGlobalMouseDown`
-
+```js
 // MySubComponent.js
 
 import GlobalEvents from 'react-global-events'
