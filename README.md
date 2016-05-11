@@ -15,6 +15,7 @@ const Root = () => (
     </div>
 )
 ```
+
 Subcomponents may then subscribe to those events in `componentDidMount`. They must then implement callback methods with the naming convention `onGlobal<EventName>`, e.g. `onGlobalMouseDown`
 ```js
 // MySubComponent.js
@@ -42,3 +43,5 @@ const MySubComponent = React.createClass({
 
 })
 ```
+
+You can have multiple components `listenFor` events, but they can't choose which subscribers to broadcast to. The events are still broadcast globally.
