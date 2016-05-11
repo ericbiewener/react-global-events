@@ -34,11 +34,11 @@ const MySubComponent = React.createClass({
     },
 
     onGlobalMouseDown: function(e) {
-
+        // Handle global mousedown events here
     },
 
     onGlobalMouseUp: function(e) {
-
+        // Handle global mouseup events here
     }
 
 })
