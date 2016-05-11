@@ -1,7 +1,7 @@
 # React Global Events
 Broadcast [`SyntheticEvents`](https://facebook.github.io/react/docs/events.html) from any React component to any others which are subscribed to that event.
 
-### Use
+## Use
 The most common implementation is to have a single root component listen for events.
 ```js
 // RootComponent.js
