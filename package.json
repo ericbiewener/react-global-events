@@ -1,6 +1,6 @@
 {
   "name": "react-global-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows parent components to broadcast events to any subscribing descendants.",
   "repository": {
     "type": "git",
